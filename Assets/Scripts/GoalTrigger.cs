@@ -2,17 +2,27 @@ using UnityEngine;
 
 public class GoalTrigger : MonoBehaviour
 {
-    public GameObject goalText; // 👈 THIS is what creates the drag field
+    public GameObject goalText;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("You made it to the lighthouse!");
-
             if (goalText != null)
             {
                 goalText.SetActive(true);
+
+                GoalTextFade fadeScript = goalText.GetComponent<GoalTextFade>();
+                if (fadeScript != null)
+                {
+                    fadeScript.ShowText();
+                }
+            }
+
+            CarController car = other.GetComponent<CarController>();
+            if (car != null)
+            {
+                car.canDrive = false;
             }
         }
     }
