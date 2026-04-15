@@ -13,6 +13,11 @@ The experience is intentionally minimal. The player drives along a coastal road 
 - On-screen arrival message
 - Car stop on arrival
 - Simple environmental setup with ground, ocean, and lighting
+- Start screen with title and prompt to begin
+- Restart system
+- Raised lighthouse platform and early environment blocking
+- Rotating lighthouse light prototype
+- UI-based progression from start screen to gameplay
 
 ## Built With
 
@@ -37,6 +42,8 @@ Future iterations may include:
 - ambient sound design
 - expanded coastal routes
 - additional lighthouse destinations
+- stronger start and end presentation
+- more readable visual guidance for the player
 
 ## Design Goal
 

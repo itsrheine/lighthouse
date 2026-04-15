@@ -4,7 +4,7 @@ public class CarController : MonoBehaviour
 {
     public float speed = 10f;
     public float turnSpeed = 100f;
-    public bool canDrive = true;
+    public bool canDrive = false;
 
     void Update()
     {
