@@ -1,56 +1,50 @@
 # Lighthouse
 
-A cozy, minimalist driving experience where players explore a quiet coastal road and reach a distant lighthouse at their own pace.
+Lighthouse is a quiet indie driving prototype built in Unity, centered on atmosphere, simplicity, and arrival.
 
-## Overview
+The experience is intentionally minimal. The player drives along a coastal road toward a distant lighthouse, with the focus placed on movement, space, and mood rather than challenge or speed.
 
-Lighthouse is a peaceful 3D driving prototype built in Unity.
-The goal is simple: drive forward, follow the road, and reach the lighthouse.
+## Current Features
 
-There are no enemies, no timers, and no pressure — just movement, atmosphere, and arrival.
-
-This project focuses on creating a calm, reflective experience through simple mechanics and environment design.
-
-## Features
-
-- Basic car movement (forward, reverse, turning)
-- Third-person camera follow system
-- Simple road guiding the player toward the destination
-- Lighthouse goal with trigger detection
-- On-screen UI message upon arrival
-- Car movement stops when destination is reached
-- Minimalist environment with ground, ocean, and lighting
+- Basic car movement
+- Third-person follow camera
+- Road leading toward the lighthouse
+- Lighthouse goal trigger
+- On-screen arrival message
+- Car stop on arrival
+- Simple environmental setup with ground, ocean, and lighting
 
 ## Built With
 
-- Unity (3D Core)
+- Unity
 - C#
 - TextMeshPro
 
 ## Current State
 
-This is an early prototype focused on core gameplay mechanics:
-- movement
-- camera
-- goal interaction
+Lighthouse is currently in early prototype stage.
 
-Future updates will expand visuals, environment detail, and overall atmosphere.
+The foundation of the experience is in place, including movement, camera behavior, and a basic destination loop. Future development will focus on visual atmosphere, environmental detail, and stronger presentation.
 
-## Future Improvements
+## Planned Direction
 
-- Improved ocean visuals and lighting
-- Lighthouse beacon animation
-- Restart system or menu screen
-- UI polish
-- Expanded map with multiple lighthouses
-- Ambient audio
+Future iterations may include:
 
-## Vision
+- improved lighting and sky atmosphere
+- lighthouse beacon effects
+- refined environment art
+- smoother UI transitions
+- ambient sound design
+- expanded coastal routes
+- additional lighthouse destinations
 
-Lighthouse is designed to be a calm, introspective experience.
+## Design Goal
 
-It is not meant to be a game the player rushes through, but one they can sit with, drive through, and quietly complete.
+Lighthouse is intended to feel small, quiet, and reflective.
+
+Rather than pushing the player through objectives, the project aims to create a calm sense of forward motion and a subtle emotional payoff through space, lighting, and arrival.
 
 ## Status
 
-In development — early prototype.
+In development.
+Early playable prototype.
